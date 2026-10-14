@@ -6,7 +6,11 @@ public class Despesa {
     private String descricao;
     private double valor;
     private String status;
-    
+   
+    //construtor vazio 
+     public Despesa (){
+       
+   }
    
     //construtor
     public Despesa (String descricao, double valor, String status) {
